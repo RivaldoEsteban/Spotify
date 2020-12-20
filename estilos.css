@@ -3,6 +3,9 @@ body {
   background: black;
   font-family: Arial, Helvetica, sans-serif;
 }
+.container {
+  /* margin-top: 300px ; */
+}
 .flexbox {
   display: flex;
   justify-content: center;
@@ -10,6 +13,7 @@ body {
 .wrapper {
   max-width: 1300px;
   margin: auto;
+  /* height: 700px; */
 }
 .header-container {
   background: black;
@@ -88,7 +92,6 @@ body {
 }
 .footer-container {
   color: white;
-  background: #242424;
 }
 .play-music {
   display: flex;
@@ -107,6 +110,7 @@ body {
 }
 .section-name-song {
   display: flex;
+  background: #242424;
   padding: 20px 0;
 }
 .footer-button-line-time {
@@ -163,5 +167,23 @@ body {
   margin: 5px 0;
 }
 .name-container {
-  margin: auto 0;
+  margin: auto 0 0 30px;
+}
+.title-hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 20px;
+}
+.title-hero img {
+  margin: 0 15px;
+}
+.title-hero-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 20px;
+}
+.title-hero-2 img {
+  margin: 0 15px;
 }
